@@ -1,6 +1,6 @@
 # node-cors
-Hello there! I'm middleware, the CORS for express.
-you can setting white list to allow cross-domain.
+Hello there! I'm middleware, the `CORS` for `express`.<br/>
+You can setting white list to allow cross-domain.
 
 # Installation
 ```
@@ -18,7 +18,9 @@ $ yarn add node-cors
 var express = require('express');
 var cors = require('node-cors');
 var app = express();
+
 //you can add any domain that you allow cross-domain in the array
+
 var whiteList = ['www.example.com', 'www.example.cn'];
 app.use(cors(whiteList));
 
