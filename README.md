@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/node-cors.png)](https://nodei.co/npm/node-cors/)
+
 # node-cors
 Hello there! I'm middleware, the `CORS` for `express`.<br/>
 You can setting white list to allow cross-domain.
